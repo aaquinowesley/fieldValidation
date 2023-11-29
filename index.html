@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validação de campos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Field Validation</h1>
+
+        <form action="" id="formulario">
+            <div class="input-group">
+                <b class="ls-label-text">CPF:</b>
+                <input type="text" id="input-cpf" maxlength="11" placeholder="000.000.000-00" required>
+            </div>
+
+            <div class="input-group">
+                <b class="ls-label-text">E-mail:</b>
+                <input type="text" id="input-email" placeholder="nomedeusuário@domain.org" required>
+            </div>
+
+            <div class="input-group">
+                <b class="ls-label-text">CEP:</b>
+                <input type="text" id="input-cep" placeholder="00000-000" >
+            </div>
+
+            <div class="input-group">
+                <b class="ls-label-text">CNPJ:</b>
+                <input type="text" id="input-cnpj" placeholder="00.000.000/0000-00" >
+            </div>
+
+            <div class="input-group">
+                <b class="ls-label-text">TELEFONE:</b>
+                <input type="text" id="input-telefone" placeholder="(99) 9999-9999" >
+            </div>
+
+            <button id="btn-enviar" type="submit">Enviar</button>
+            <button id="btn-enviar" type="reset">Limpar</button>
+    </div>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

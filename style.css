@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    /* width: 100%; */
+}
+
+/* .input-group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.input-group b{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-group input{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+
+/* #input-cpf:invalid{
+    border-color: red;
+}
+
+
+#input-email:invalid{
+    border-color: red;
+} */
+
+#btn-enviar{
+    padding: 1rem;
+}
